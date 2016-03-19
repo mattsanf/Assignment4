@@ -1,0 +1,78 @@
+#login-page {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    
+    background-color: #252525;
+    height: 100vh;
+    width: 100%;
+    
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+}
+.error{
+    color: red;
+    display: none;
+}
+.login-form label{
+    color: snow;
+}
+.loginform .form-group{
+    margin: 16px 0px;
+}
+#chat-page{
+    height: 100vh;
+    background-color: white;
+    width: 100%;
+}
+#chat-page .row{
+    margin: 0px;
+}
+
+.chat{
+    position: relative;
+    height: 90vh;
+}
+
+.chat-log{
+    list-style: none;
+    padding: 0;
+}
+.chat-log li{
+    padding: 15px;
+    border-radius: 4px;
+}
+.chat-log li:nth-child(even){
+    background-color: #337ab7;
+    color: snow;
+}
+.message-input{
+    height: 10vh;
+    margin: 0px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
